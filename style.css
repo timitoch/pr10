@@ -1,0 +1,65 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  padding: 50px;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  margin: 0;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 0px;
+}
+
+#game {
+  text-align: center;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+#slot {
+  text-align: center;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+button {
+  background-color: #e34b46;
+  border: none;
+  border-radius: 10px; 
+  padding: 10px 40px; 
+  transition: background-color 0.5s;
+  margin-top: 10px;
+}
+
+button:hover {
+  transform: scale(1, 1);
+  background-color: rgb(255 222 101);
+}
+
+#message {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#result{
+  font-size: 2em; /* збільшено розмір шрифту */
+}
+
+
+#slot {
+  transform-style: preserve-3d;
+  animation: spin 3s infinite linear;
+}
+
+slot-item {
+  position: absolute;
+
+  font-size:40em; /* збільшено розмір шрифту */
+}
